@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+ <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap" rel="stylesheet" />
+  </head>
+
+
+<body>
+<div class="page d-flex">
+<div class="sidebar bc-white p-20">
+<h3 class="p-relative tc m-0 ">Mariem</h3>
+<ul>
+<li><a href="index.htm" class=" c-black p-10 br-6 d-flex align">
+ <i class="fa-regular fa-chart-bar fa-fw"></i>
+<span>Dashboard</span>
+</a>
+</li>
+<li><a href="setting.htm" class="active c-black p-10 br-6 d-flex align">
+ <i class="fa-solid fa-gear fa-fw"></i>
+<span>Settings</span>
+</a>
+</li>
+<li><a href="profile.htm" class="c-black p-10 br-6 d-flex align">
+  <i class="fa-regular fa-user fa-fw"></i>
+<span>Profile</span>
+</a>
+</li>
+<li><a href="projects.htm" class="c-black p-10 br-6 d-flex align">
+ <i class="fa-solid fa-diagram-project fa-fw"></i>
+<span>Projects</span>
+</a>
+</li>
+<li><a href="courses.htm" class="c-black p-10 br-6 d-flex align">
+  <i class="fa-solid fa-graduation-cap fa-fw"></i>
+<span>Courses</span>
+</a>
+</li>
+<li><a href="frinds.htm" class="c-black p-10 br-6 d-flex align">
+ <i class="fa-regular fa-circle-user fa-fw"></i>
+<span>Frinds</span>
+</a>
+</li>
+<li><a href="files.htm" class="c-black p-10 br-6 d-flex align">
+  <i class="fa-regular fa-file fa-fw"></i>
+<span>Files</span>
+</a>
+</li>
+<li><a href="plans.htm" class="c-black p-10 br-6 d-flex align">
+<i class="fa-regular fa-credit-card fa-fw"></i>
+<span>Plans</span>
+</a>
+</li>
+
+</ul>
+</div>
+
+<div class="content w-full ovr-hi">
+<div class="head flex-between p-20 bc-white">
+<div class="search">
+<input type="search" placeholder="Type A Keyword">
+</div>
+<div class="bell">
+<div class="noti">
+ <i class="fa-regular fa-bell fa-lg"></i>
+</div>
+<img src="imgs/avatar.png" alt="" />
+</div>
+</div>
+<h1>Settings</h1>
+
+<div class="set-boxs">
+<div class="control bc-white br-10 p-20">
+<div class="text wraper">
+<h2>Site Control</h2>
+<p>Control The Website If There Is Maintenance</p>
+</div>
+<div class="check flex-between">
+<div class="info">
+<h5>Website Control</h5>
+<p>Open/Close Website And Type The Reason</p>
+</div>
+<div class="label">
+<label>
+<input type="checkbox" class="toggle-checkbox">
+<div class=""></div>
+</label>
+</div>
+</div>
+<div class="message">
+<textarea placeholder="Close Message Content"></textarea>
+</div>
+</div>
+
+<div class="info bc-white p-20 br-10">
+<div class="text wraper">
+<h2>General Info</h2>
+<p>General Information About Your Account</p>
+</div>
+<form>
+<label>
+First Name
+<input type="text" placeholder="First Name">
+</label>
+<label>
+Last Name
+<input type="text" placeholder="Last Name">
+</label>
+<div class="email">
+<label>
+Email
+<input type="email" value="o@nn.sa" disabled>
+</label>
+<a href="#" class="c-blue">Change</a>
+</div>
+</form>
+</div>
+
+<div class="security bc-white p-20 br-10">
+<div class="text wraper">
+<h2>Security Info</h2>
+<p>Security Information About Your Account</p>
+</div>
+<div class="box flex-between brd-bot">
+<div>
+<span>Password</span>
+<p class="c-gray f-14">Last Change On 25/10/2021</p>
+</div>
+<a hraf="" class="c-white bc-bblue but">Change</a>
+</div>
+<div class="box flex-between brd-bot">
+<div>
+<span>Two-Factor Authentication</span>
+<p class="c-gray f-14">Enable/Disable The Feature</p>
+</div>
+<label>
+<input type="checkbox" class="toggle-checkbox" checked>
+<div class=""></div>
+</label>
+</div>
+<div class="box flex-between">
+<div>
+<span>Devices</span>
+<p class="c-gray f-14">Check The Login Devices List</p>
+</div>
+<a hraf="" class="c-black bc-ll but">Device</a>
+</div>
+</div>
+
+
+<div class="soc-info bc-white p-20 br-10">
+<div class="text wraper">
+<h2>Social Info</h2>
+<p>Social Media Information</p>
+</div>
+<div class="cont">
+<div class="box">
+<i class="fa-brands fa-twitter center-flex c-grey"></i>
+<input type="text" placeholder="Twitter Username">
+</div>
+<div class="box">
+<i class="fa-brands fa-facebook-f center-flex c-grey"></i>
+<input type="text" placeholder="Facebook Username">
+</div>
+<div class="box">
+<i class="fa-brands fa-linkedin center-flex c-grey"></i>
+<input type="text" placeholder="Linkedin Username">
+</div>
+<div class="box">
+<i class="fa-brands fa-youtube center-flex c-grey"></i>
+<input type="text" placeholder="Youtube Username">
+</div>
+</div>
+</div>
+
+
+<div class="widgets bc-white p-20 br-10">
+<div class="text wraper">
+<h2>Widgets Control</h2>
+<p>Show/Hide Widgets</p>
+</div><div class="cont">
+<div class="box">
+<label>
+<input type="checkbox" checked>Quick Draft
+</label>
+</div>
+<div class="box">
+<label>
+<input type="checkbox" checked>Yearly Targets
+</label>
+</div>
+<div class="box">
+<label>
+<input type="checkbox" checked>Tickets Statistics
+</label>
+</div>
+<div class="box">
+<label>
+<input type="checkbox" checked>Latest News
+</label>
+</div>
+<div class="box">
+<label>
+<input type="checkbox">Latest Tasks
+</label>
+</div>
+<div class="box">
+<label>
+<input type="checkbox" checked>Top Search Items
+</label>
+</div>
+</div>
+</div>
+
+<div class="manger bc-white p-20 br-10">
+<div class="text wraper">
+<h2>Backup Manager</h2>
+<p>Control Backup Time And Location</p>
+</div>
+<div class="radio">
+<input type="radio" id="one" checked>
+<label for="one">Daily</label>
+<input type="radio" id="two">
+<label for="two">Weekly</label>
+<input type="radio" id="three">
+<label for="three">Monthly</label>
+</div>
+<div class="boxs">
+<div class="box">
+ <i class="fa-solid fa-server d-block mb-10"></i>
+<span>Megaman</span>
+</div>
+<div class="box">
+ <i class="fa-solid fa-server d-block mb-10"></i>
+<span>zero</span>
+</div>
+<div class="box">
+ <i class="fa-solid fa-server d-block mb-10"></i>
+<span>Sigma</span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>  <!--boxs-->
+</div>  <!--content-->
+</div>  <!--page-->
+
+  </body>
